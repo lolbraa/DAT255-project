@@ -1,0 +1,5 @@
+name: DAT255-Plots
+dependencies:
+    - matplotlib
+    - pandas
+    - ipykernel
