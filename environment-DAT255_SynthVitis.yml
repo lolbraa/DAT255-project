@@ -1,0 +1,12 @@
+name: DAT255_SynthVitis
+dependencies:
+  - numpy
+  - notebook
+  - scikit-learn=
+  - tensorflow
+  - tensorflow-datasets
+  - pip
+  - pip:
+      - hls4ml[profiling,optimization,sr,hgq2,qkeras]
+      - hgq2
+      - qkeras
