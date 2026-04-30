@@ -2,7 +2,7 @@
 
 This is the repository containing the code for DAT255-project. 
 
-The project explores deploying deep learning models on FPGAs for real-time applications using HLS4ML, focusing on quantization and pruning to balance model accuracy and hardware resource usage. Using MNIST and SVHN datasets, the project leverages QKeras and HGQ2 to research effectiveness and feasability of compressing models.
+The project explores deploying deep learning models on FPGAs for real-time applications using [HLS4ML](https://fastmachinelearning.org/hls4ml/index.html), focusing on quantization and pruning to balance model accuracy and hardware resource usage. Using MNIST and SVHN datasets, the project leverages QKeras and HGQ2 to research effectiveness and feasability of compressing models.
 
 
 
@@ -11,16 +11,12 @@ The project explores deploying deep learning models on FPGAs for real-time appli
 
 ´´´bash
 DAT255-project
-    ├── MNIST
-    │   ├── MNIST_MLP_HGQ_StaticTraining
-    │   │   └── model_outputs_static_training_MLP
-    │   └── model_HGQ
-    │       ├── model_outputs
-    │       ├── model_outputs_2
-    │       ├── model_outputs_DynamicTraining_MLP
-    │       └── model_outputs_static_training
-    └── Plots
-        └── export
+├── MNIST       - models based on the MNIST dataset
+├── SVHN        - models based on the SVHN dataset
+├── Reports     - utilities to gather and parse reports
+│   └── reports - finalized reports are copied here
+└── Plots       - utilities to make plots
+    └── export  - export of plots
 ´´´
 
 
