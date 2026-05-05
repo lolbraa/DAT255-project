@@ -1,0 +1,28 @@
+---
+MainSourceFile:  '/home/ncgadmin/DAT255/DAT255-project/MNIST/CNN_HGQ_StaticTraining/test/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '53:84'
+    FilePath:        'firmware/myproject.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '53:88'
+    FilePath:        'firmware/myproject.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:73'
+    FilePath:        'firmware/myproject.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '59:77'
+    FilePath:        'firmware/myproject.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '65:72'
+    FilePath:        'firmware/myproject.cpp'
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-10] Either use an argument of the function or declare the variable inside the dataflow loop body'
+    FileOffset:      '65:77'
+    FilePath:        'firmware/myproject.cpp'
+...
